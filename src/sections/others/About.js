@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
 // import imgPhoto from "../../assets/image/jpg/portfolio-about.jpg";
-import imgPhoto from "../../assets/image/jpg/thebell.jpg";
+import imgPhoto from "../../assets/image/jpg/tatiana.jpg";
 import imgSignLight from "../../assets/image/png/signature.png";
 
 const LinkSocial = styled.a`
