@@ -28,7 +28,7 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
+                  PRODUCT DESIGNER, ILLUSTRATOR, TRAVELER
                 </Text>
                 <Title variant="hero">
                   I design digital experiences for clients.

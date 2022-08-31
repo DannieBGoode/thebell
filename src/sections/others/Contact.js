@@ -40,10 +40,10 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                   <Text color="light">Email me at</Text>
 
                   <a href="mailto:hello@folio.com" className="font-weight-bold">
-                    <Span color="primary">hello@folio.com</Span>
+                    <Span color="primary">tati.hbel@gmail.com</Span>
                   </a>
                 </div>
-                <div className="mt-5">
+                {/*<div className="mt-5">
                   <Text color="light">Call me at</Text>
 
                   <div>
@@ -51,7 +51,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                       <Span color="primary">+1-402-4983</Span>
                     </a>
                   </div>
-                </div>
+                </div>*/}
               </ContactCard>
             </Col>
           </Row>

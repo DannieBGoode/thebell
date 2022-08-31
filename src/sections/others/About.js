@@ -34,7 +34,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Tatiana Hernández
                 </Title>
                 <Text
                   color="light"
@@ -43,12 +43,17 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
+                  I am a Product Designer that loves that which is unique
+                  and who believes that small actions can have a world wide impact.
                 </Text>
+                <Text color="light" className="mt-4">
+                  I specialize in planning, creativity and Design Thinking and Lean Startup based project development.
+                </Text>
+
                 <Text color="light" className="mt-4">
                   I strive for a minimal and beautiful design.
                 </Text>
+
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>
 
@@ -57,7 +62,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       href="mailto:hello@folio.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">tati.hbel@gmail.com</Span>
                     </a>
                   </Text>
                 </div>
@@ -65,10 +70,10 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                  Tatiana Hernández
                 </Text>
                 <Text color="light" variant="small">
-                  Founder of Folio Digital
+                  Product Designer @ Moralis.io
                 </Text>
                 <div className="mt-5 d-flex">
                   <LinkSocial
@@ -80,7 +85,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     Dribble
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.twitter.com"
+                    href="https://twitter.com/TatiHdez"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" mr-3"
@@ -88,15 +93,15 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     Twitter
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.facebook.com"
+                    href="https://www.linkedin.com/in/tatianahernandezbeltran/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                    Facebook
+                    Linkedin
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/thebell.site/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-weight-bold"
