@@ -3,9 +3,13 @@ import imgT1b from "../assets/image/portfolio/bob/bob-cover.png";
 import imgT2 from "../assets/image/jpg/agency/masonry/portfolio-mas-7.jpg";
 import imgT2b from "../assets/image/portfolio/renfe-cover.png";
 import imgT3 from "../assets/image/jpg/agency/masonry/portfolio-mas-6.jpg";
+import imgT3b from "../assets/image/portfolio/artwork/Ilustr_4.png";
 import imgT4 from "../assets/image/jpg/agency/masonry/portfolio-mas-5.jpg";
+import imgT4b from "../assets/image/portfolio/lms/lms-cover.png";
 import imgT5 from "../assets/image/jpg/agency/masonry/portfolio-mas-4.jpg";
+import imgT5b from "../assets/image/portfolio/tmb/tmb-cover.png";
 import imgT6 from "../assets/image/jpg/agency/masonry/portfolio-mas-3.jpg";
+import imgT6b from "../assets/image/portfolio/cafe/cafe-cover.png";
 import imgT7 from "../assets/image/jpg/agency/masonry/portfolio-mas-16.jpg";
 import imgT8 from "../assets/image/jpg/agency/masonry/portfolio-mas-15.jpg";
 import imgT9 from "../assets/image/jpg/agency/masonry/portfolio-mas-2.jpg";
@@ -22,7 +26,7 @@ export const designWorks1 = [
     title: `Case study for Bob.`,
     categories: [`product design`,`branding`],
     thumbnail: imgT1b,
-  link : "/bob"
+  link : "/projects/bob"
 },    
   {
     brand: `Renfe`,
@@ -30,7 +34,39 @@ export const designWorks1 = [
     title: `Renfe`,
     categories: [`ui/ux design`],
     thumbnail: imgT2b,
-  link : "/renfe"
+  link : "/projects/renfe"
+},    
+  {
+    brand: `TMB`,
+    slug: `tmb`,
+    title: `TMB`,
+    categories: [`ui/ux design`],
+    thumbnail: imgT5b,
+  link : "/projects/tmb"
+},    
+  {
+    brand: `LMS`,
+    slug: `lms`,
+    title: `LMS`,
+    categories: [`ui/ux design`],
+    thumbnail: imgT4b,
+  link : "/projects/lms"
+},    
+  {
+    brand: `Digital Artwork`,
+    slug: `artwork`,
+    title: `Digital Artwork`,
+    categories: [`illustration`],
+    thumbnail: imgT3b,
+  link : "/projects/artwork"
+},     
+  {
+    brand: `Cafe por BCN`,
+    slug: `cafe-por.bcn`,
+    title: `Cafe por BCN`,
+    categories: [`branding`],
+    thumbnail: imgT6b,
+  link : "/projects/artwork"
 },  
   {
     brand: `Perfumed`,
